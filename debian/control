@@ -16,6 +16,7 @@ Package: wireless-regdb
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
+Conflicts: boot-managed-by-snapd (<< 5~)
 Description: wireless regulatory database
  This package contains the wireless regulatory database used by the Central
  Regulatory Database Agent (CRDA) to configure wireless devices to operate

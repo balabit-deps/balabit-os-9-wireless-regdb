@@ -1,9 +1,21 @@
-wireless-regdb (2024.10.07-0ubuntu1~22.04.1) jammy; urgency=medium
+wireless-regdb (2025.07.10-0ubuntu1~22.04.1) jammy; urgency=medium
 
-  * Backport to jammy (LP: #2094190)
+  * Backport to jammy (LP: #2119591)
     - debian/rules: Continue shipping CRDA regulatory.bin
 
- -- Noah Wager <noah.wager@canonical.com>  Tue, 14 Jan 2025 11:14:38 -0800
+ -- Noah Wager <noah.wager@canonical.com>  Tue, 16 Sep 2025 08:20:30 -0700
+
+wireless-regdb (2025.07.10-0ubuntu1) questing; urgency=medium
+
+  * New upstream version 2025.07.10 (LP: #2119591)
+
+ -- Noah Wager <noah.wager@canonical.com>  Wed, 27 Aug 2025 23:10:33 -0700
+
+wireless-regdb (2024.10.07-0ubuntu2) plucky; urgency=medium
+
+  * debian/control: Conflict with old boot-managed-by-snapd (LP: #2096979)
+
+ -- Noah Wager <noah.wager@canonical.com>  Fri, 28 Feb 2025 08:23:41 -0800
 
 wireless-regdb (2024.10.07-0ubuntu1) plucky; urgency=medium
 
