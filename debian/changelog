@@ -1,9 +1,15 @@
-wireless-regdb (2025.07.10-0ubuntu1~22.04.1) jammy; urgency=medium
+wireless-regdb (2025.10.07-0ubuntu1~22.04.1) jammy; urgency=medium
 
-  * Backport to jammy (LP: #2119591)
+  * Backport to jammy (LP: #2138403)
     - debian/rules: Continue shipping CRDA regulatory.bin
 
- -- Noah Wager <noah.wager@canonical.com>  Tue, 16 Sep 2025 08:20:30 -0700
+ -- Noah Wager <noah.wager@canonical.com>  Wed, 14 Jan 2026 18:20:14 -0800
+
+wireless-regdb (2025.10.07-0ubuntu1) resolute; urgency=medium
+
+  * New upstream version 2025.10.07 (LP: #2138403)
+
+ -- Noah Wager <noah.wager@canonical.com>  Wed, 14 Jan 2026 13:15:49 -0800
 
 wireless-regdb (2025.07.10-0ubuntu1) questing; urgency=medium
 
