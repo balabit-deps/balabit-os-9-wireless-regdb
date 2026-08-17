@@ -6,7 +6,7 @@ XSBC-Original-Maintainer: Seth Forshee <seth@forshee.me>
 Build-Depends: debhelper-compat (= 13),
  openssl,
  python3,
- python3-m2crypto,
+ python3-cryptography,
  quilt
 Rules-Requires-Root: no
 Standards-Version: 4.5.0

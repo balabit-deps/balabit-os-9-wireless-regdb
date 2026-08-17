@@ -1,9 +1,17 @@
-wireless-regdb (2026.02.04-0ubuntu1~22.04.1) jammy; urgency=medium
+wireless-regdb (2026.05.30-0ubuntu1~22.04.1) jammy; urgency=medium
 
-  * Backport to jammy (LP: #2144719)
+  * Backport 2026.05.30-0ubuntu1 to Jammy (LP: #2163172)
     - debian/rules: Continue shipping CRDA regulatory.bin
 
- -- Noah Wager <noah.wager@canonical.com>  Tue, 24 Mar 2026 13:14:34 -0700
+ -- Jacob Martin <jacob.martin@canonical.com>  Mon, 17 Aug 2026 12:52:20 -0500
+
+wireless-regdb (2026.05.30-0ubuntu1) stonking; urgency=medium
+
+  * New upstream version 2026.05.30 (LP: #2163172)
+    - debian/control: Exchange python3-m2crypto build dependency for
+      python3-cryptography
+
+ -- Jacob Martin <jacob.martin@canonical.com>  Mon, 10 Aug 2026 10:02:11 -0500
 
 wireless-regdb (2026.02.04-0ubuntu1) resolute; urgency=medium
 
